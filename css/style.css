@@ -12,13 +12,17 @@ header {
     max-width: 425px;
     margin: 0 auto;
     padding: 48px 0 16px 0;
-    border-bottom: 3px solid #be0b0b;
+    border-bottom: 4px solid #be0b0b;
+}
+
+header h1, header p {
+    padding: 0 16px;
 }
 
 header h1 {
     font-family: "Noto Serif JP";
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 56px;
+    font-weight: 700;
 }
 
 header p {
@@ -36,4 +40,52 @@ main {
     max-width: 425px;
     margin: 0 auto;
     padding: 16px 0 16px 0;
+}
+
+.plan-day {
+    padding: 0 16px 16px 16px;
+    text-align: right;
+    text-decoration: underline;
+    border-bottom: 1px solid #be0b0b;
+}
+
+.list-item {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #be0b0b;
+}
+
+.item-num {
+    margin-right: 16px;
+    font-family: "Noto Serif JP";
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.info-name {
+    margin-bottom: 4px;
+}
+
+.info-name p:first-child {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.info-name p:nth-child(2) {
+    font-weight: 100;
+}
+
+.info-key {
+    display: flex;
+}
+
+.info-key p {
+    padding: 2px 4px;
+    font-size: 14px;
+    background-color: #e9dada;
+}
+
+.info-key p:first-child {
+    margin-right: 4px;
 }
