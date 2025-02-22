@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap');
+
+html {
+    font-family: "42dot Sans", serif;
+    font-size: 16px;
+    color: #be0b0b;
+}
+
+/* 상단 */
+header {
+    max-width: 425px;
+    margin: 0 auto;
+    padding: 48px 0 16px 0;
+    border-bottom: 3px solid #be0b0b;
+}
+
+header h1 {
+    font-family: "Noto Serif JP";
+    font-size: 48px;
+    font-weight: 600;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+header span {
+    margin: 0 2px;
+    font-weight: 100;
+}
+
+
+/* 본문 */
+main {
+    max-width: 425px;
+    margin: 0 auto;
+    padding: 16px 0 16px 0;
+}
