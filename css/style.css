@@ -63,6 +63,15 @@ main {
     font-weight: 600;
 }
 
+.info-link {
+    color: unset;
+    text-decoration: none;
+}
+
+.info-link:hover {
+    text-decoration: underline;
+}
+
 .info-name {
     margin-bottom: 4px;
 }
