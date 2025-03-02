@@ -7,23 +7,26 @@
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
-    <!-- 상단 고정 헤더(도쿄 타이틀, 날짜) -->
+    <!-- 상단 고정 헤더(도쿄 타이틀, 날짜, 요일) -->
     <header>
         <h1>Tokyo</h1>
         <p>03.14<span>&#126;</span>03.17</p>
-
-        <p class="plan-day">Friday</p>
     </header>
 
-    <!-- 본문(요일, 일정 리스트) -->
-    <main>
-        <!-- 금요일 -->
-        <div class="plan-box">
-            
+    <!-- 본문(일정 리스트) -->
+    <main class="swiper-container">
+        <div class="swiper-wrapper plan-box">
+            <!-- 금요일 -->
+            <div class="swiper-slide plan-list">
+                <p class="plan-day">Friday</p>
 
-            <div class="plan-list">
                 <div class="list-item">
                     <p class="item-num">1</p>
 
@@ -41,6 +44,17 @@
                             <p>&#35;점심식사</p>
                             <p>&#35;라멘or텐동</p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="list-comm-box">
+                    <div class="comm-btn">
+                        <span>코멘트</span>
+                    </div>
+
+                    <div class="comm-con">
+                        <p>&#42; 나리타공항 1터미널</p>
+                        <p>&#42; <strong>게이세이나리타 스카이 액세스</strong> 타고 호텔로 가기</p>
                     </div>
                 </div>
 
@@ -114,7 +128,139 @@
                     </div>
                 </div>
             </div>
+
+            <!-- 토요일 -->
+            <div class="swiper-slide plan-list">
+                <p class="plan-day">Saturday</p>
+
+                <div class="list-item">
+                    <p class="item-num">1</p>
+
+                    <div class="item-info">
+                        <a href="https://www.google.com/maps/place/%EC%95%BC%EC%9A%94%EC%9D%B4%EC%BC%84+%ED%9E%88%EA%B0%80%EC%8B%9C%EC%9A%B0%EC%97%90%EB%85%B8%EC%A0%90/@35.7071299,139.7787431,15.5z/data=!3m1!5s0x60188e98e6ea8bdf:0xa234099f9afdc489!4m6!3m5!1s0x60188e98e6d0f255:0x8f6b73a1baa510c!8m2!3d35.711655!4d139.779492!16s%2Fg%2F1tlw91ws?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
+                           target="_blank"
+                           class="info-link">
+                            <div class="info-name">
+                                <p>やよい軒 東上野店</p>
+                                <p>야요이켄 히가시우에노점</p>
+                            </div>
+                        </a>
+                        
+                        <div class="info-key">
+                            <p>&#35;점심식사</p>
+                            <p>&#35;가정식</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-item">
+                    <p class="item-num">2</p>
+
+                    <div class="item-info">
+                        <a href="https://www.google.com/maps/place/%EC%9B%8C%EB%84%88+%EB%B8%8C%EB%9D%BC%EB%8D%94%EC%8A%A4+%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4+%ED%88%AC%EC%96%B4+%EB%8F%84%EC%BF%84+-+%EB%A9%94%EC%9D%B4%ED%82%B9+%EC%98%A4%EB%B8%8C+%ED%95%B4%EB%A6%AC+%ED%8F%AC%ED%84%B0/@35.7401222,139.6758992,13.75z/data=!4m6!3m5!1s0x6018edf292d73867:0x85ceba2d7e05669b!8m2!3d35.745183!4d139.6460909!16s%2Fg%2F11ssklb5dl?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
+                           target="_blank"
+                           class="info-link">
+                            <div class="info-name">
+                                <p>ハリー・ポッター スタジオ</p>
+                                <p>해리포터 스튜디오 투어 도쿄</p>
+                            </div>
+                        </a>
+                        
+                        <div class="info-key">
+                            <p>&#35;관광</p>
+                            <p>&#35;해리포터</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-item">
+                    <p class="item-num">3</p>
+
+                    <div class="item-info">
+                        <a href="https://www.google.com/maps/place/Milky+Way+Cafe/@35.728824,139.7174953,16.5z/data=!3m1!5s0x60188d688038e725:0x1aa411ce35c757b4!4m6!3m5!1s0x60188d68bf5afb31:0xda9c3bdfc4a29165!8m2!3d35.7293433!4d139.7143145!16s%2Fg%2F11b88hgm_l?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
+                           target="_blank"
+                           class="info-link">
+                            <div class="info-name">
+                                <p>パフェテラスミルキーウェイ</p>
+                                <p>밀키웨이 카페</p>
+                            </div>
+                        </a>
+                        
+                        <div class="info-key">
+                            <p>&#35;파르페</p>
+                            <p>&#35;이케부쿠로</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-item">
+                    <p class="item-num">4</p>
+
+                    <div class="item-info">
+                        <a href="https://www.google.com/maps/place/KIDDY+LAND/@35.7284715,139.7189237,17.46z/data=!3m1!5s0x60188d6f00e83cbb:0xa094042101c97f88!4m6!3m5!1s0x60188d6e54939313:0xa9d1c78d8003cc9b!8m2!3d35.7291104!4d139.7194608!16s%2Fg%2F11h9rcbnf8?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
+                           target="_blank"
+                           class="info-link">
+                            <div class="info-name">
+                                <p>キデイランド 池袋サンシャインシティ店</p>
+                                <p>키디랜드</p>
+                            </div>
+                        </a>
+                        
+                        <div class="info-key">
+                            <p>&#35;쇼핑</p>
+                            <p>&#35;캐릭터</p>
+                            <p>&#35;선샤인시티</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-item">
+                    <p class="item-num">5</p>
+
+                    <div class="item-info">
+                        <a href="https://www.google.com/maps/place/%EC%B9%BC%EB%94%94+%EC%BB%A4%ED%94%BC+%ED%8C%9C+%EB%A3%A8%EB%AF%B8%EB%84%A4+%EC%9D%B4%EC%BC%80%EB%B6%80%EC%BF%A0%EB%A1%9C/@35.7287467,139.704677,16z/data=!3m1!5s0x60188d5d0a479275:0xcc6bc8928c1974d8!4m10!1m2!2m1!1z7J207LyA67aA7L-g66GcIOy5vOuUlA!3m6!1s0x60188df4267043bf:0x411dbbf3186d8c80!8m2!3d35.7287464!4d139.7098822!15sChbsnbTsvIDrtoDsv6DroZwg7Lm865SUWhgiFuydtOy8gOu2gOy_oOuhnCDsubzrlJSSAQxjb2ZmZWVfc3RvcmXgAQA!16s%2Fg%2F11h_4mwhlh?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
+                           target="_blank"
+                           class="info-link">
+                            <div class="info-name">
+                                <p>カルディコーヒーファーム ルミネ池袋店</p>
+                                <p>칼디</p>
+                            </div>
+                        </a>
+                        
+                        <div class="info-key">
+                            <p>&#35;쇼핑</p>
+                            <p>&#35;디저트</p>
+                            <p>&#35;이케부쿠로역</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-item">
+                    <p class="item-num">6</p>
+
+                    <div class="item-info">
+                        <a href="https://www.google.com/maps/place/The+Gate+Hotel+Ryogoku+by+HULIC/@35.6980593,139.7776752,14.75z/data=!3m1!5s0x60188eb5699c43dd:0x93cc3bbc01591aad!4m9!3m8!1s0x60188f48b0bd05bb:0x797f2b22f8a97019!5m2!4m1!1i2!8m2!3d35.6978172!4d139.7924227!16s%2Fg%2F11j6bjcz6b?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
+                           target="_blank"
+                           class="info-link">
+                            <div class="info-name">
+                                <p>The Gate Hotel Ryogoku</p>
+                                <p>더 게이트 호텔 료고쿠</p>
+                            </div>
+                        </a>
+                        
+                        <div class="info-key">
+                            <p>&#35;호텔</p>
+                            <p>&#35;편털</p>
+                            <p>&#35;휴식..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/burger.js"></script>
 </body>
 </html>
