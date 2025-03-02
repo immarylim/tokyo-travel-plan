@@ -52,15 +52,19 @@ main {
 .list-item {
     padding: 8px 16px;
     display: flex;
-    align-items: center;
     border-bottom: 1px solid #be0b0b;
 }
 
 .item-num {
     margin-right: 16px;
+    align-self: flex-start;
     font-family: "Noto Serif JP";
     font-size: 64px;
     font-weight: 600;
+}
+
+.item-info {
+    align-self: center;
 }
 
 .info-link {
@@ -85,16 +89,19 @@ main {
     font-weight: 100;
 }
 
+.info-line {
+    color: #e9dada;
+    font-weight: 900;
+}
+
 .info-key {
+    margin-top: 16px;
     display: flex;
 }
 
 .info-key p {
+    margin-right: 4px;
     padding: 2px 4px;
     font-size: 14px;
     background-color: #e9dada;
-}
-
-.info-key p:first-child {
-    margin-right: 4px;
 }
