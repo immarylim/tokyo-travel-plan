@@ -81,6 +81,7 @@ main {
 }
 
 .info-name p:first-child {
+    font-family: "Noto Serif JP";
     font-size: 24px;
     font-weight: 500;
 }
