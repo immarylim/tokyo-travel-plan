@@ -10,9 +10,13 @@ html {
 /* 상단 */
 header {
     max-width: 425px;
-    margin: 0 auto;
-    padding: 48px 0 16px 0;
-    border-bottom: 4px solid #be0b0b;
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 48px 0 0 0;
+    background-color: white;
+    z-index: 999;
 }
 
 header h1, header p {
@@ -34,19 +38,23 @@ header span {
     font-weight: 100;
 }
 
+.plan-day {
+    padding: 8px 16px 8px 16px;
+    text-align: right;
+    text-decoration: underline;
+    border-top: 4px solid #be0b0b;
+    border-bottom: 1px solid #be0b0b;
+}
+
 
 /* 본문 */
 main {
+    position: relative;
+    top: 203.6px;
     max-width: 425px;
     margin: 0 auto;
-    padding: 16px 0 16px 0;
-}
-
-.plan-day {
-    padding: 0 16px 16px 16px;
-    text-align: right;
-    text-decoration: underline;
-    border-bottom: 1px solid #be0b0b;
+    padding: 0 0 32px 0;
+    background-color: white;
 }
 
 .list-item {
@@ -88,11 +96,6 @@ main {
 
 .info-name p:nth-child(2) {
     font-weight: 100;
-}
-
-.info-line {
-    color: #e9dada;
-    font-weight: 900;
 }
 
 .info-key {
