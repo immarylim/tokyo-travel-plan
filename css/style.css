@@ -147,8 +147,17 @@ main {
     background-color: #e9dada;
 }
 
-.comm-con p:not(:last-child) {
+ul {
+    margin: 0;
+    padding: 0 16px;
+}
+
+.con-box > li:not(:last-child) {
     margin-bottom: 4px;
+}
+
+.con-sub > li {
+    margin: 2px 0;
 }
 
 @media(max-width: 425px) {
