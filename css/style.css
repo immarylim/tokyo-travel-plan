@@ -68,7 +68,7 @@ main {
 }
 
 .list-item {
-    padding: 8px 16px 16px 16px;
+    padding: 0 16px 4px 16px;
     display: flex;
     border-bottom: 1px solid #be0b0b;
 }
@@ -83,6 +83,18 @@ main {
 
 .item-info {
     align-self: center;
+}
+
+.info-sel {
+    display: flex;
+}
+
+.info-sel a, .info-sel span {
+    margin-right: 8px;
+}
+
+.info-sel span {
+    font-weight: 100;
 }
 
 .info-link {
@@ -101,15 +113,10 @@ main {
 
 .info-name p {
     width: 100%;
+    font-weight: 900;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.info-name p:first-child {
-    font-family: "Noto Serif JP";
-    font-size: 24px;
-    font-weight: 500;
 }
 
 .info-name p:nth-child(2) {
@@ -117,7 +124,7 @@ main {
 }
 
 .info-key {
-    margin-top: 16px;
+    margin-top: 8px;
     display: flex;
 }
 
