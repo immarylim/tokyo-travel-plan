@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
 
 html {
     font-family: "42dot Sans", serif;
@@ -87,6 +88,7 @@ main {
 
 .info-sel {
     display: flex;
+    align-items: center;
 }
 
 .info-sel a, .info-sel span {
@@ -113,7 +115,9 @@ main {
 
 .info-name p {
     width: 100%;
-    font-weight: 900;
+    font-family: "Noto Serif KR";
+    font-size: 20px;
+    font-weight: 700;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
