@@ -129,15 +129,14 @@ main {
 
 .comm-btn {
     padding: 4px 16px;
-    display: flex;
-    justify-content: flex-end;
-    background-color: #be0b0b;
+    background-color: #e9dada;
+    border-bottom: 1px solid #be0b0b;
     cursor: pointer;
 }
 
 .comm-btn span {
     font-size: 14px;
-    color: white;
+    color: #be0b0b;
 }
 
 .comm-con {
