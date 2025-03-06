@@ -195,7 +195,7 @@ ul {
 
 @media(max-width: 425px) {
     .plan-list {
-        padding-bottom: 32px;
+        max-height: 65vh;
     }
     
     .info-name {
