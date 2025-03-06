@@ -194,6 +194,10 @@ ul {
 }
 
 @media(max-width: 425px) {
+    .plan-list {
+        padding-bottom: 32px;
+    }
+    
     .info-name {
         max-width: 80vw;
     }
