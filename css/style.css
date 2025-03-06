@@ -134,9 +134,14 @@ main {
 
 .info-key p {
     margin-right: 4px;
-    padding: 2px 4px;
+    padding: 4px 6px;
+    display: flex;
     font-size: 14px;
     background-color: #e9dada;
+}
+
+.info-key p img {
+    width: 16px;
 }
 
 .comm-btn {
@@ -195,4 +200,10 @@ ul {
     .info-name {
         max-width: 73.4vw;
     }
+}
+
+
+/* 슬라이드 */
+.swiper-slide {
+    height: auto !important;
 }
