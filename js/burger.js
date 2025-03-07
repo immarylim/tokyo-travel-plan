@@ -7,8 +7,10 @@ document.querySelectorAll('.comm-btn').forEach((btn) => {
 
         if(commDisplay === 'none') {
             commCon.style.display = 'block';
+            btn.style.borderBottom = '1px solid #fffafa';
         } else {
             commCon.style.display = 'none';
+            btn.style.borderBottom = '1px solid #bf5f5f';
         }
     });
 });
