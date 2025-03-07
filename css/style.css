@@ -50,7 +50,7 @@ header span {
 /* 본문 */
 main {
     position: relative;
-    top: 164px;
+    top: 169px;
     max-width: 425px;
     margin: 0 auto;
     border-bottom: 6px solid #be0b0b;
@@ -161,6 +161,10 @@ main {
     color: #be0b0b;
 }
 
+.list-comm-box .comm-con {
+    border-bottom: 1px solid #be0b0b;
+}
+
 .list-nonComm-box .comm-btn {
     padding: 4px 16px;
     border-bottom: 1px solid #be0b0b;
@@ -197,7 +201,6 @@ ul {
     .plan-list {
         max-height: 65vh;
     }
-    
     .info-name {
         max-width: 80vw;
     }
